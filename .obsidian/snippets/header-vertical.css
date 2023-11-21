@@ -1,0 +1,54 @@
+@keyframes animated-gradient-vertial {
+  to {
+    background-position: 0 200%;
+  }
+}
+
+.cm-header-1,
+.markdown-preview-view h1,
+.cm-header-2,
+.markdown-preview-view h2,
+.cm-header-3,
+.markdown-preview-view h3,
+.cm-header-4,
+.markdown-preview-view h4,
+.cm-header-5,
+.markdown-preview-view h5,
+.cm-header-6,
+.markdown-preview-view h6 {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 200% 200%;
+  background-position: 0 -200%;
+  animation: animated-gradient-vertial 8s infinite alternate-reverse;
+}
+
+.cm-header-1,
+.markdown-preview-view h1 {
+  background-image: linear-gradient(to bottom, #826592, #a4a1e3, #a1bae3);
+}
+
+.cm-header-2,
+.markdown-preview-view h2 {
+  background-image: linear-gradient(to bottom, #e2ea6b, #d67e30, #f6cd47);
+}
+
+.cm-header-3,
+.markdown-preview-view h3 {
+  background-image: linear-gradient(to bottom, #33c5be, #33c592, #3381c5);
+}
+
+.cm-header-4,
+.markdown-preview-view h4 {
+  background-image: linear-gradient(to bottom, #fce38a, #f85baadb, #ff7676);
+}
+
+.cm-header-5,
+.markdown-preview-view h5 {
+  background-image: linear-gradient(to bottom, #fce36a, #f38181);
+}
+.cm-header-6,
+.markdown-preview-view h6 {
+  background-image: linear-gradient(to bottom, #8d8af3, #903775, #e8458b);
+}

@@ -1,0 +1,23 @@
+:root {
+  --custom_line_width: 100%;
+  /*--custom_line_width: 500px;*/
+}
+
+.markdown-source-view,
+.markdown-preview-view {
+  max-width: var(--custom_line_width);
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.5s ease-in-out;
+}
+/*@media screen and (max-width: 1280px) {
+  .markdown-source-view,
+  .markdown-preview-view {
+    max-width: 95%;
+    transition: all 0.5s ease-in-out;
+  }
+}*/
+
+.map((img,i) => {
+  if(i === 7) window.open(img.src.split("?size=400")[0], "_blank")
+  })

@@ -1,0 +1,89 @@
+@keyframes animated-gradient {
+  to {
+    background-position: 200%;
+  }
+}
+
+.cm-header-1 {
+  color: transparent;
+  background-image: linear-gradient(to right, #a6c1ee, #f46737);
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 200%;
+  background-position: -200%;
+  animation: animated-gradient 10s infinite alternate-reverse;
+}
+
+.cm-header-2 {
+  color: transparent;
+  background-image: linear-gradient(to right, #ffc478, #3f87a6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 200%;
+  background-position: -200%;
+  animation: animated-gradient 10s infinite alternate-reverse;
+}
+
+.cm-header-3 {
+  color: transparent;
+  background-image: linear-gradient(to right, #ffc478, #ca5ee7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 200%;
+  background-position: -200%;
+  animation: animated-gradient 10s infinite alternate-reverse;
+}
+
+.cm-header-4 {
+  color: #ffc478;
+}
+
+.cm-header-5 {
+  color: #44d7b6;
+}
+
+.cm-header-6 {
+  color: #f1b7b0;
+}
+
+.markdown-preview-view h1 {
+  color: transparent;
+  background-image: linear-gradient(to right, #a6c1ee, #f46737);
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 200%;
+  background-position: -200%;
+  animation: animated-gradient 10s infinite alternate-reverse;
+}
+
+.markdown-preview-view h2 {
+  color: transparent;
+  background-image: linear-gradient(to right, #ffc478, #3f87a6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 200%;
+  background-position: -200%;
+  animation: animated-gradient 8s infinite alternate-reverse;
+}
+
+.markdown-preview-view h3 {
+  color: transparent;
+  background-image: linear-gradient(to right, #9de778, #7f56f2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 200%;
+  background-position: -200%;
+  animation: animated-gradient 7s infinite alternate-reverse;
+}
+
+.markdown-preview-view h4 {
+  color: #ffc478;
+}
+
+.markdown-preview-view h5 {
+  color: #44d7b6;
+}
+
+.markdown-preview-view h6 {
+  color: #f1b7b0;
+}
